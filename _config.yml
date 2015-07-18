@@ -1,0 +1,38 @@
+title: Popcorny的碎碎唸
+description:  Java, Machine Learning, Big Data
+
+url: http://popcornylu.github.io/
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: Kramdown
+# markdown: redcarpet
+
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "supers  cript","tables", "with_toc_data"]
+
+kramdown:
+  input: GFM
+  use_coderay: true
+  coderay:
+    # coderay_line_numbers: true
+    coderay_css: class
+
+highlighter: pygments
+paginate: 10
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: popcornylu
+   facebook: popcornylu
+   email: popcorny@gmail.com
+
+# google_analytics: "UA-58263416-1"
